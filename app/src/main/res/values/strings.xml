@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TeamProject</string>
+    <string name="edit1">edit1</string>
+    <string name="edit2">edit2</string>
+    <string name="loginbtn">loginbtn</string>
+    <string name="registerbtn">registerbtn</string>
 </resources>
