@@ -17,7 +17,6 @@ public class LoginActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        Intent intent = getIntent();
 
 
 //        EditText idText = (EditText) findViewById(R.id.idText);
