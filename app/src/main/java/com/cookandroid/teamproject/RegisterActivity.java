@@ -14,8 +14,8 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        EditText idText = (EditText) findViewById(R.id.idText);
-        EditText passwordText = (EditText) findViewById(R.id.passwordText);
+//        EditText idText = (EditText) findViewById(R.id.idText);
+//        EditText passwordText = (EditText) findViewById(R.id.passwordText);
 //        EditText passwordText = (EditText) findViewById(R.id.passwordText);
         EditText nameText = (EditText) findViewById(R.id.nameText);
         EditText ageText = (EditText) findViewById(R.id.ageText);
