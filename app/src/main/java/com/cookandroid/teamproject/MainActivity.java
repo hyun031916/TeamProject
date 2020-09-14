@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         protected String doInBackground(String... strings) {
             try{
                 String str;
-                URL url = new URL("JSP 주소");    //jsp 주소
+                URL url = new URL("http://localhost:8080/teamProject/login.jsp");    //jsp 주소
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestProperty("Content-type", "application/x-www-form-urlencoded");
                 conn.setRequestMethod("POST");  //POST 방식으로 데이터 전송
